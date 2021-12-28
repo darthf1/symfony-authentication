@@ -3,7 +3,9 @@
 Reproducer https://github.com/symfony/symfony/issues/44806
 
 ## How to reproduce:
-- checkout repo
+- git clone https://github.com/darthf1/symfony-authentication.git
+- cd symfony-authentication
+- git checkout master
 - docker build . -t bug-5.4
 - docker run bug-5.4 bin/phpunit
 
