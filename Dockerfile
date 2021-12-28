@@ -11,3 +11,5 @@ RUN set -eux; \
     composer clear-cache;
 
 COPY . ./
+
+RUN bin/console lexik:jwt:generate-keypair --overwrite
