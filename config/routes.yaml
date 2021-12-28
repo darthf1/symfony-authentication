@@ -1,0 +1,2 @@
+api_login_check:
+  path: /v1/login
